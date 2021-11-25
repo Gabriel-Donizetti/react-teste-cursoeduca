@@ -1,14 +1,14 @@
-import { Login } from './components/loginpage'
+import React from 'react'
 import './styles/App.css'
 
-function App() {
+import { BrowserRouter as Router } from 'react-router-dom'
+import { MainRoutes } from './services/routes'
 
+function App() {
   return (
-    <div className="App">
-      <main>
-        <Login />
-      </main>
-    </div>
+    <Router>
+     <MainRoutes/>
+    </Router>
   )
 }
 
