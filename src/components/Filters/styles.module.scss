@@ -1,0 +1,19 @@
+.container {
+    grid-area: FT;
+    padding: 30px;
+
+    form  {
+        background: var(--white);
+        border-radius: 5px;
+        padding: 30px;
+
+        div {
+            margin-bottom: 15px;
+
+            button {
+                width: 100%;
+            }
+        }
+    }
+
+}

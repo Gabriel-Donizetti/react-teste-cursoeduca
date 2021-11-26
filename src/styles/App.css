@@ -1,0 +1,26 @@
+*, ul {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+*, button, input {
+    border: 0;
+    outline: 0;
+    font-family: 'Rubik', sans-serif;
+}
+
+body{
+    background: var(--primary);
+}
+
+:root {
+    --primary: #1b1b1b;
+    --secondary: #29292E;
+
+    --tertionary: #1B873F;
+    --quaternary:#FF7A29;
+
+    --white: #fff;
+    --blue: #3699ff
+}

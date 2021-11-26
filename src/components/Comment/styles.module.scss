@@ -1,0 +1,45 @@
+.container {
+    margin: 30px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #eee;
+
+    .header {
+        display: flex;
+        margin-bottom: 15px;
+
+        img {
+            max-width: 60px;
+        }
+
+        .userInfo {
+
+            margin-left: 15px;
+
+            p  {
+                font-weight: 500;
+                margin-bottom: 0;
+            }
+
+            span {
+                color: #aaa;
+                font-size: 14px
+            }
+        }
+    }
+
+    .message {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        margin-bottom: 15px;
+
+        div {
+            margin-left: 30px;
+        }
+
+        button {
+            margin: 0 15px 15px 0;
+        }
+    }
+    
+}
